@@ -1,0 +1,5 @@
+INSERT INTO pedido (data_entrega, descricao, nome, url_imagem, url_item, valor, status) VALUES ('2021-12-25', 'uma descrição qualquer para esse pedido', 'Mac Book Pro Charger','https://m.media-amazon.com/images/I/51H7tRV8bxL._AC_SL1498_.jpg', 'https://amzn.to/3lXhoXt', 200, 'APROVADO')
+INSERT INTO pedido (data_entrega, descricao, nome, url_imagem, url_item, valor, status) VALUES ('2022-01-10', 'olá, gostaria de receber esse fone até fevereiro, pago até 20% no valor', 'Sony WF-1000XM4 ','https://m.media-amazon.com/images/I/4155dgBLwPS._AC_SL1200_.jpg', 'https://amzn.to/2ZahEtK', 1873.29, 'ENTREGUE')
+INSERT INTO produto(nome, valor, url_imagem , pais_origem) VALUES ('Ryzen 7 5700g', 1825, 'https://images-na.ssl-images-amazon.com/images/I/61DYLoyNRWL.__AC_SY300_SX300_QL70_ML2_.jpg', 'China')
+INSERT into produto(nome, valor, url_imagem , pais_origem) values ('Nintendo Controle Pro Cinza', 280,'https://m.media-amazon.com/images/I/51uPCyw9BIL._AC_SL1000_.jpg','China')
+INSERT into produto(nome, valor, url_imagem , pais_origem) values ('Smartphone Catpillar S61', 3230,'https://m.media-amazon.com/images/I/61xKFjXrnBL._AC_SL1349_.jpg','Paraguai')
